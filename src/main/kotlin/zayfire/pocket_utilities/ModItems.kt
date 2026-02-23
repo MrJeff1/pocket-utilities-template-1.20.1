@@ -22,6 +22,6 @@ object ModItems {
     }
 
     fun registerAll() {
-        // Accessing the object initializes it
+        // object init forces registration
     }
 }
