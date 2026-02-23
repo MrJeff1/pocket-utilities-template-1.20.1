@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "CTC",
+    "LLL"
+  ],
+  "key": {
+    "L": { "item": "minecraft:leather" },
+    "C": { "item": "minecraft:crafting_table" },
+    "T": { "item": "minecraft:string" }
+  },
+  "result": {
+    "item": "pocket-utilities:pocket_crafting_table"
+  }
+}
