@@ -10,7 +10,7 @@ object ModItems {
 
     val POCKET_CRAFTING_TABLE: Item = register(
         "pocket_crafting_table",
-        Item(FabricItemSettings().maxCount(1))
+        PocketCraftingItem(FabricItemSettings().maxCount(1))
     )
 
     private fun register(name: String, item: Item): Item {
